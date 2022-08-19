@@ -1,25 +1,25 @@
 {
-  "title": "Desmos Block Explorer",
-  "network": "desmos-mainnet-1",
-  "icon": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/icon.svg?sanitize=true",
+  "title": "Oppy Block Explorer",
+  "network": "oppyChain-1",
+  "icon": "https://bafkreieq6ays5stsxmij7rt6dxsmjawqeuddlxzii53i3riohzcplnflkq.ipfs.nftstorage.link/",
   "logo": {
-    "default": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/logo.svg?sanitize=true"
+    "default": "https://bafkreieq6ays5stsxmij7rt6dxsmjawqeuddlxzii53i3riohzcplnflkq.ipfs.nftstorage.link"
   },
   "prefix": {
-    "consensus": "desmosvalcons",
-    "validator": "desmosvaloper",
-    "account": "desmos"
+    "consensus": "oppyvalcons",
+    "validator": "oppyvaloper",
+    "account": "oppy"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udsm",
-  "votingPowerTokenUnit": "udsm",
+  "primaryTokenUnit": "poppy",
+  "votingPowerTokenUnit": "poppy",
   "tokenUnits": {
-    "udsm": {
-      "display": "dsm",
-      "exponent": 6
+    "poppy": {
+      "display": "oppy",
+      "exponent": 12
     }
   },
   "extra": {
