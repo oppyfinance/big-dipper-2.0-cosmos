@@ -48,5 +48,17 @@ export const getFilterLabels = () => {
       key: 'others',
       display: 'others',
     },
+    {
+      key: 'create-issue-token',
+      display: 'create-issue-token',
+    },
+    {
+      key: 'create-pool',
+      display: 'create-pool',
+    },
+    {
+      key: 'create-outbound-tx',
+      display: 'create-outbound-tx',
+    },
   ]);
 };

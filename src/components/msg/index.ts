@@ -68,6 +68,9 @@ import GrantAllowance from './feegrant/grant_allowance';
 import RevokeAllowance from './feegrant/revoke_allowance';
 import CreateVestingAccount from './vesting/create_vesting_account';
 import CreatePeriodicVestingAccount from './vesting/create_periodic_vesting_account';
+import CreateIssueToken from './oppy/create_issue_token';
+import CreatePool from './oppy/create_pool';
+import CreateOutboundTx from './oppy/create_outbound_tx';
 
 export {
   getMessageModelByType,
@@ -134,4 +137,7 @@ export {
   RevokeAllowance,
   CreateVestingAccount,
   CreatePeriodicVestingAccount,
+  CreateIssueToken,
+  CreatePool,
+  CreateOutboundTx,
 };

@@ -402,7 +402,27 @@ const getDataByType = (type: string) => {
       tagTheme: 'four',
       tagDisplay: 'txUnblockUserLabel',
     },
-
+    // ========================
+    // OPPY
+    // ========================
+    '/oppyfinance.oppychain.vault.MsgCreateIssueToken': {
+      model: MODELS.MsgCreateIssueToken,
+      content: COMPONENTS.CreateIssueToken,
+      tagTheme: 'two',
+      tagDisplay: 'MsgCreateIssueToken',
+    },
+    '/oppyfinance.oppychain.vault.MsgCreateCreatePool': {
+      model: MODELS.MsgCreatePool,
+      content: COMPONENTS.CreatePool,
+      tagTheme: 'two',
+      tagDisplay: 'MsgCreatePool',
+    },
+    '/oppyfinance.oppychain.vault.MsgCreateOutboundTx': {
+      model: MODELS.MsgCreateOutboundTx,
+      content: COMPONENTS.CreateOutboundTx,
+      tagTheme: 'two',
+      tagDisplay: 'MsgCreateOutboundTx',
+    },
   };
 
   if (defaultTypeToModel[type]) return defaultTypeToModel[type];

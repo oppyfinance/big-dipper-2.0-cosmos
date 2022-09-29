@@ -54,5 +54,8 @@
   "MsgGrantAllowance": "Grant Allowance",
   "MsgRevokeAllowance": "Revoke Allowance",
   "MsgCreateVestingAccount": "Create Vesting Account",
-  "MsgCreatePeriodicVestingAccount": "Create Periodic Vesting Account"
+  "MsgCreatePeriodicVestingAccount": "Create Periodic Vesting Account",
+  "MsgCreateIssueToken": "Issue Token",
+  "MsgCreatePool": "Create Pool",
+  "MsgCreateOutboundTx": "Create Outbound Tx"
 }
