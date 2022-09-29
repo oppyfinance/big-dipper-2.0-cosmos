@@ -1,3 +1,12 @@
+# Useage
+1. npm i
+2. put env contents to file .env
+3. npm run build
+4. npm run start
+
+# Dev experiences:
+1. to show human readable token amounts an denoms, add tokenUnits to: src/configs/chain_config.mainnet.json
+
 # Big Dipper 2.0 ✨ (Cosmos Based Chains)
 Big Dipper is an open-source block explorer and token management tool serving over 10 proof-of-stake blockchains. It has been forked more than 100 times on GitHub and has served audiences from 140 countries and regions.
 
