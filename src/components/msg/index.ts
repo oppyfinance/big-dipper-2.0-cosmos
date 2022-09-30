@@ -71,6 +71,8 @@ import CreatePeriodicVestingAccount from './vesting/create_periodic_vesting_acco
 import CreateIssueToken from './oppy/create_issue_token';
 import CreatePool from './oppy/create_pool';
 import CreateOutboundTx from './oppy/create_outbound_tx';
+import CreateBalancerPool from './oppy/create_balancer_pool';
+import SwapExactAmountIn from './oppy/swap_exact_amount_in';
 
 export {
   getMessageModelByType,
@@ -140,4 +142,6 @@ export {
   CreateIssueToken,
   CreatePool,
   CreateOutboundTx,
+  CreateBalancerPool,
+  SwapExactAmountIn,
 };

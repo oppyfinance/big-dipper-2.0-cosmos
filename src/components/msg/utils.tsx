@@ -423,6 +423,18 @@ const getDataByType = (type: string) => {
       tagTheme: 'two',
       tagDisplay: 'MsgCreateOutboundTx',
     },
+    '/oppyfinance.oppychain.swap.balancer.v1beta1.MsgCreateBalancerPool': {
+      model: MODELS.MsgCreateBalancerPool,
+      content: COMPONENTS.CreateBalancerPool,
+      tagTheme: 'two',
+      tagDisplay: 'MsgCreateBalancerPool',
+    },
+    '/oppyfinance.oppychain.swap.v1beta1.MsgSwapExactAmountIn': {
+      model: MODELS.MsgSwapExactAmountIn,
+      content: COMPONENTS.SwapExactAmountIn,
+      tagTheme: 'two',
+      tagDisplay: 'MsgSwapExactAmountIn',
+    },
   };
 
   if (defaultTypeToModel[type]) return defaultTypeToModel[type];

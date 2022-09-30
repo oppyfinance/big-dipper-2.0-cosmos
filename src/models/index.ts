@@ -72,6 +72,8 @@ import MsgCreatePeriodicVestingAccount from './msg/vesting/msg_create_periodic_v
 import MsgCreateIssueToken from './msg/oppy/msg_create_issue_token';
 import MsgCreatePool from './msg/oppy/msg_create_pool';
 import MsgCreateOutboundTx from './msg/oppy/msg_create_outbound_tx';
+import MsgCreateBalancerPool from './msg/oppy/msg_create_balancer_pool';
+import MsgSwapExactAmountIn from './msg/oppy/msg_swap_exact_amount_in';
 
 export {
   BigDipperNetwork,
@@ -148,4 +150,6 @@ export {
   MsgCreateIssueToken,
   MsgCreatePool,
   MsgCreateOutboundTx,
+  MsgCreateBalancerPool,
+  MsgSwapExactAmountIn,
 };

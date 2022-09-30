@@ -57,5 +57,7 @@
   "MsgCreatePeriodicVestingAccount": "Create Periodic Vesting Account",
   "MsgCreateIssueToken": "Issue Token",
   "MsgCreatePool": "Create Pool",
-  "MsgCreateOutboundTx": "Create Outbound Tx"
+  "MsgCreateOutboundTx": "Create Outbound Tx",
+  "MsgCreateBalancerPool": "Create Balancer Pool",
+  "MsgSwapExactAmountIn": "Swap"
 }

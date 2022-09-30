@@ -60,5 +60,13 @@ export const getFilterLabels = () => {
       key: 'create-outbound-tx',
       display: 'create-outbound-tx',
     },
+    {
+      key: 'create-balancer-token',
+      display: 'create-balancer-token',
+    },
+    {
+      key: 'swap_exact_amount_in',
+      display: 'swap_exact_amount_in',
+    },
   ]);
 };
